@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe Ui';
+}
+body{
+    display: flex;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: azure;
+    width: 20vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+nav div{
+    margin: 10%;
+}
+.headerTitle{
+    font-family: Pacifico,'Segoe Ui';
+    font-size: 96px;
+    margin-bottom: 5%;
+}
+.headerParagraph{
+    margin-bottom: 100px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 500vh;
+    padding-left: 20vh;
+}
+.cat{
+    block-size: 500px;
+}
+h1{
+    padding: 5%;
+    text-align: center;
+}
+p{
+    padding: 10%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500vh;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M 10,-2.55e-7 V 20 Z M -1.1677362e-8,10 H 20 Z'  stroke-width='1' stroke='hsla(0, 0%, 0%, 0.17)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.images img{
+    block-size: 500px;
+    margin: 5%;
+    margin-bottom: 0;
+    object-fit: cover;
+    max-width: 400px;
+    max-height: 400px;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    border-color: #0000002B;
+}
+.images p{
+    margin-bottom: 10%;
+    font-weight: bold;
+}
